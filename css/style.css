@@ -40,3 +40,145 @@ img{vertical-align: top;}
 
 h1,h2,h3,h3,h5,h6{font-size: inherit; font-weight: 400;}
 
+/*работа над проектом*/
+
+/*общие*/
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+.white{
+  background-color: white;
+  }
+.grey{
+  background-color: #f6f6f6;
+}
+h1,h2,h3{
+  text-align: center;
+}
+h2{
+  font-weight: 800;
+  font-size: 40px;
+  padding: 40px;
+}
+p{
+  padding: 3px;
+  color: #7f7f7f;
+  font-size: 14px;
+  line-height: 1.66em;
+}
+
+/*шапка сайта*/
+header {
+  background: #30697d url(../img/bg.jpg) no-repeat center top / cover;
+  color: #ffffff;
+  margin: 0 auto;
+  height: 600px;
+}
+.headline {
+  display: block;
+  text-align: center;
+  letter-spacing: 0.1em;
+  padding-top: 200px;
+}
+.headline p {
+  color: #9ab4be;
+}
+h1 {
+  font-size: 65px;
+  letter-spacing: 0.2em;
+  border-top: 3px solid #9ab4be;
+  border-bottom: 3px solid #9ab4be;
+  width: 898px;
+  padding: 14px 0;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+/* панель навигации в шапке сайта*/
+nav {
+  float: right;
+  margin-top: 40px;
+}
+.menu {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+.menu li {
+  float: left;
+  display: block;
+  margin-right: 30px;
+}
+.menu a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.menu a:hover {
+  color: #fed136;
+  text-decoration: underline;
+}
+/*секция обо мне*/
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.photo {
+  display: block;
+  width: 400px;
+  height: 400px;
+  background: url(../img/photo.png) no-repeat center top;
+  margin-left: 30px;
+  margin-bottom: 120px;
+}
+.text {
+  width: 600px;
+  padding: 30px;
+}
+.text p {
+  color: #7f7f7f;
+  font-size: 14px;
+  line-height: 1.66em;
+}
+.btn {
+  background: #ff2b4a;
+  color: #ffffff;
+  width: 200px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 60px;
+  margin-left: 150px;
+}
+.btn:hover {
+  background: #ffffff;
+  color: #ff2b4a;
+  border: 2px solid #ff2b4a;
+}
+/*секция про работу*/
+.experience{
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+.experience img{
+  height: 230px;
+  width: 230px;
+  border-radius: 25px;
+}
+.experience th {
+  padding: 10px;
+  text-align: justify;  
+}
+.bold{
+  color: black;
+  font-weight: 800;
+}
+.underline {
+  text-decoration: underline;
+}
