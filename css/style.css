@@ -182,3 +182,140 @@ nav {
 .underline {
   text-decoration: underline;
 }
+
+/*секция образование*/
+.education ul, li {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 20px 0;
+}
+.timeline {
+  position: relative;
+  margin: 0 auto 100px;
+  width: 90%;  
+}
+.timeline ul li {
+  margin-bottom: 50px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.point {
+  min-width: 20px;
+  height: 20px;
+  background-color: #333333 ;
+  border-radius: 100%;
+  z-index: 2;
+  border: 3px #333333 solid;
+  position: relative;
+  left: 1px;
+}
+.timeline ul li .content {
+  width: 50%;
+  padding: 0 20px;
+}
+.timeline ul li:nth-child(odd) .content {
+  padding-left: 0;
+}
+.timeline ul li:nth-child(odd) .date {
+  padding-right: 0;
+}
+.timeline ul li:nth-child(even) .content {
+  padding-right: 0;
+}
+.timeline ul li:nth-child(even) .date {
+  padding-left: 0;
+}
+.timeline ul li .date {
+  width: 50%;
+  padding: 0 20px;
+}
+.timeline ul li .date h4 {
+  background-color: #ff2b4a;
+  color: white;
+  width: 100px;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.timeline ul li .content h3 {
+  padding: 10px 20px;
+  background-color: #002453;
+  color:white;
+  margin-bottom: 0;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-weight: 800;
+}
+.timeline ul li .content p {
+  padding: 10px 20px;
+  background-color: #c4e2ee;
+  margin-top: 0;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #333333;
+}
+.timeline ul li:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.timeline ul li:nth-child(even) .date h4 {
+  float: right
+}
+.timeline::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 3px;
+  left: 50%;
+  background-color: #333333;
+}
+/*секция про навыки*/
+
+/*секция про увлечения*/
+.interests {
+  border-collapse: collapse;
+  margin: 0 auto 100px;
+}
+.interests img{
+  height: 150px;
+  width: 150px;
+}
+.interests th{
+  height: 250px;
+  width: 250px;
+  color: white;
+  border: white solid 50px;
+  padding: 20px;
+}
+.bike{
+  background-image: url(img/icons/bike.png);
+  background: #10c6fc;
+}
+.aqua{
+  background: #835aeb;
+}
+.guitar{
+  background: #002453;
+}
+.travel{
+  background: #ff2b4a;
+}
+/*подва сайта*/
+footer {
+  background: #30697d url(../img/bg.jpg) no-repeat center top / cover;
+  height: 250px;
+}
+.webpages{
+  margin: 0 auto;
+
+}
+.webpages img{
+  height: 60px;
+  width: 60px;
+  padding: 10px;
+}
