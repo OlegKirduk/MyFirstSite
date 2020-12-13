@@ -1,11 +1,6 @@
-/*просто практикуюсь*/
-let twit = "Hello, Nastya";
-if (2 > 1) {
-    console.log(twit);
-}
-if (2 > 1) console.log(twit);
 
-/*пример*/
+
+/*тренируюсь*/
 let message = "I love Nastya";
 
 let Nastya = true;
@@ -78,12 +73,3 @@ let surname = "Baranovsky";
 let fullname = namer + " " + surname;
 console.log(fullname);
 
-let president = prompt ("Кто Ваш президент");
-if {
-    
-}
-money1 = parseInt(money);
-perc1 = parseInt (perc);
-let ress = money1 + perc1 * money1 / 100;
-alert ("К выдаче " + ress);
-//alert ("Ты - Буся!");
